@@ -64,7 +64,7 @@ section:first-of-type {
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
-  width: auto !Important;
+  width: 14em !Important;
   background-color: #711c17;
   border: 0;
   box-shadow: none;
@@ -84,11 +84,12 @@ section .container, header .container {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   box-shadow: inset 0 1px 0 0 #dddddd;
-  min-height: 80vh; }
+  min-height: 20vh; }
   section .container .content, header .container .content {
     position: relative;
     padding: 5em 3em 5em 3em;
-    text-align: center; }
+    text-align: center; 
+	line-height: 25px; }
     section .container .content img, header .container .content img {
       width: 100%; }
     section .container .content ul.menu, header .container .content ul.menu {

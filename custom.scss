@@ -5,12 +5,12 @@ $bg-color: $primary-link;
 $contrast: white; 
 body {
     font-family: "Raleway", "Helvetica", sans-serif;  
-    background-image: url('/img/bg1k.jpg');
+    background-image: url('img/bg1k.jpg');
     @media (min-width:1100px) and (max-width:2000px) {
-        background-image: url('/img/bg2k.jpg');
+        background-image: url('img/bg2k.jpg');
     }
     @media (min-width:2000px) {
-        background-image: url('/img/bg4k.jpg');
+        background-image: url('img/bg4k.jpg');
     }
     background-size: cover;
     background-attachment: fixed;
